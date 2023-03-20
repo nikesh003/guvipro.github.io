@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>LogIn Page</title>
+        <link rel="stylesheet" type="text/css" href="css/login.css">
+
+    </head>
+        <body style="background-image: url(assets/login_bacground.jpg);">
+            
+            <section>
+                <div class="loginbox">
+                    <div class="loginval">
+                        <form id="nform" >
+                            <h2>LogIn</h2>
+                            <div class="logininputbox">
+                                <ion-icon name="at-circle-outline"></ion-icon>
+                                <input autocomplete="off" type="email" id="x_mail" name="x_mail" required>
+                                <label for="">Email</label>
+                            </div>
+                            <div class="logininputbox">
+                                <ion-icon name="lock-open-outline"></ion-icon>
+                                <input type="password" id="c_pass" name="c_pass" required>
+                                <label for="">Password</label>
+                            </div>
+                           <!-- <div class="forgot">
+                            <label for=""><input type="checkbox">Remember </label>
+                            <a href="#">Forgot Password?</a>
+                        </div> -->
+                        <button>Log-In</button>
+                        <div class="register">
+                            <p>Don't Have an Account ?<a href="register.html"><br>Register</a></p>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            <script src="js/login.js"></script>
+        </body>
+    </head>
+</html>
